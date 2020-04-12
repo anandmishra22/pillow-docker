@@ -7,6 +7,6 @@ archive=libwebp-1.1.0
 
 pushd $archive
 
-./configure --prefix=/usr --enable-libwebpmux --enable-libwebpdemux && make -j4 && sudo make -j4 install
+./configure --prefix=/usr --enable-libwebpmux --enable-libwebpdemux && make -j4 && make -j4 install
 
 popd

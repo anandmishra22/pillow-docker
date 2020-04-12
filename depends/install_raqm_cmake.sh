@@ -11,7 +11,7 @@ pushd $archive
 mkdir build
 cd build
 cmake ..
-make && sudo make install
+make && make install
 cd ..
 
 popd
